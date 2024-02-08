@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #E0F2F1;
+
+}
+
+/* Header section */
+header{
+    background-color: #639ed9;
+    /* color: blueviolet; */
+    padding: 35px;
+    box-shadow: 0px 12px 15px 0px;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav ul .list-items{
+    /* padding: 10px;    */
+    display: flex;
+}
+nav ul .list-items li{
+    padding-right: 69px;
+
+}
+nav ul li a{
+    color: #e1f5fe;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+}
+/* Main section */
+#container{
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    padding-top: 27px;
+    text-decoration: underline;
+}
+.box1 h1{
+    text-shadow: 1px 1px 1px 2px red;   
+    font-size: 3rem;
+}
+.box2{
+    width: 98.7vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.box2 img{
+    width: 100%;
+    margin-left: 9px;
+    height: auto;
+    padding: 12px 0px;
+}
+/* Container Second */
+.dept{
+    padding: 5px;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+.techer h3{
+    font-size: 1.5rem;
+    /* font-size: 23px; */
+    padding-top: 10px;
+    text-decoration: underline;
+}
+.techer p{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    /* font-size: 22px; */
+}
+.students h3{
+    
+    text-decoration: underline;
+}
+.students{
+    font-size: 1.6rem;
+    /* font-size: 22px; */
+    padding-top: 10px;
+}
+.students ol li{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 1.5rem;
+}
+
+/* container 3 */
+
+#container3 h3{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: underline;
+}
+
+.photos .image-row{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#container3 .two-different .two{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 3rem ;
+}
+.image-special{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    overflow: hidden;
+}
+#container3 .scanner h3{
+    font-size: 3rem;
+
+}
+.scanner{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* footer Section */
+
+footer{
+    background-color: black;
+    position: relative;
+    bottom: 0px;
+    color: white;
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
